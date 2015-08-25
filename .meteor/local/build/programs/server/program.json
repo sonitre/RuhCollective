@@ -226,6 +226,11 @@
       }
     },
     {
+      "sourceMap": "packages/reywood_publish-composite.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/reywood_publish-composite.js"
+    },
+    {
       "sourceMap": "packages/session.js.map",
       "sourceMapRoot": "packages",
       "path": "packages/session.js"

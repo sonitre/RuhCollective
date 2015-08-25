@@ -266,6 +266,17 @@
       "hash": "c4195e22b5a0a7239a415a3d95b3b702c34fa28d"
     },
     {
+      "path": "packages/reywood_publish-composite.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/reywood_publish-composite.js?f8a4b4678e93f2105df0857cbdfdac20530f2702",
+      "sourceMap": "packages/reywood_publish-composite.js.map",
+      "sourceMapUrl": "/packages/f8a4b4678e93f2105df0857cbdfdac20530f2702.map",
+      "size": 1310,
+      "hash": "f8a4b4678e93f2105df0857cbdfdac20530f2702"
+    },
+    {
       "path": "packages/webapp.js",
       "where": "client",
       "type": "js",
@@ -572,11 +583,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/components/Vote/Vote.jsx.js?14c4bd26c3e1e11014b4cb1804a2bc38185a1ea9",
+      "url": "/client/components/Vote/Vote.jsx.js?dadbec40d6d97dae234327a51afe9eee4c515768",
       "sourceMap": "app/client/components/Vote/Vote.jsx.js.map",
-      "sourceMapUrl": "/client/components/Vote/14c4bd26c3e1e11014b4cb1804a2bc38185a1ea9.map",
-      "size": 1213,
-      "hash": "14c4bd26c3e1e11014b4cb1804a2bc38185a1ea9"
+      "sourceMapUrl": "/client/components/Vote/dadbec40d6d97dae234327a51afe9eee4c515768.map",
+      "size": 822,
+      "hash": "dadbec40d6d97dae234327a51afe9eee4c515768"
     },
     {
       "path": "app/client/components/Routes.jsx.js",
