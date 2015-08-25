@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["main.jsx"],"names":[],"mappings":"YAAA,IAAI,MAAM,CAAC,QAAQ,EAAE;;;AAGnB,QAAM,CAAC,OAAO,CAAC,YAAY;;AAEzB,SAAK,CAAC,MAAM,CAAC,oBAAC,MAAM,OAAE,EAAE,QAAQ,CAAC,cAAc,CAAC,WAAW,CAAC,CAAC,CAAC;GAC/D,CAAC,CAAC","file":"/client/main.jsx.js","sourcesContent":["if (Meteor.isClient) {\n  // This code is executed on the client only\n\n  Meteor.startup(function () {\n    // Use Meteor.startup to render the component after the page is ready\n    React.render(<Routes/>, document.getElementById(\"react-app\"));\n  });\n}"]}

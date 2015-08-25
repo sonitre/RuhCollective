@@ -1,0 +1,38 @@
+{
+  "builtBy": "meteor/16",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/benjaminmilton/Desktop/ruh/packages/npm-container/package.js": "15d8f516275f340f4e16836919cf882f1575ae35",
+        "/Users/benjaminmilton/Desktop/ruh/packages/npm-container/.npm/package/npm-shrinkwrap.json": "7640341a9f5e1e7d88ac504574913232f810acb4",
+        "/Users/benjaminmilton/Desktop/ruh/packages/npm-container/index.js": "f8380eac8c7264a90832d7a7d590ace6076d8f08",
+        "/Users/benjaminmilton/Desktop/ruh/packages.json": "c6fe2f968a42560a341b0af4b526554249b6c003"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/benjaminmilton/Desktop/ruh/packages/npm-container/package.js": "15d8f516275f340f4e16836919cf882f1575ae35",
+        "/Users/benjaminmilton/Desktop/ruh/packages/npm-container/.npm/package/npm-shrinkwrap.json": "7640341a9f5e1e7d88ac504574913232f810acb4"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/benjaminmilton/Desktop/ruh/packages/npm-container/package.js": "15d8f516275f340f4e16836919cf882f1575ae35"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "npm-container": {
+      "kind": "local",
+      "sourceRoot": "/Users/benjaminmilton/Desktop/ruh/packages/npm-container"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.6"
+    }
+  },
+  "includeCordovaUnibuild": false
+}
