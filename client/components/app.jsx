@@ -8,10 +8,16 @@ App = React.createClass({
                 <div>
                     <NavBar />
                 </div>
-                <div>
+                <div style={styles.contentWrapper}>
                     {this.props.children}
                 </div>
             </div>
         );
     }
 });
+
+let styles = {
+    contentWrapper: {
+        padding: 10
+    }
+};

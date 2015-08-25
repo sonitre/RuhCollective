@@ -13,11 +13,17 @@
             ),
             React.createElement(
                 "div",
-                null,
+                { style: styles.contentWrapper },
                 this.props.children
             )
         );
     }
 });
+
+var styles = {
+    contentWrapper: {
+        padding: 10
+    }
+};
 
 })();

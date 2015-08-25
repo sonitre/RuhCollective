@@ -8,7 +8,7 @@ NavBar = React.createClass({
         return (
             <div>
                 <div style={styles.topRow}>
-                    <p>RUH COLLECTIVE</p>
+                    <p style={styles.logo}>RUH COLLECTIVE</p>
                 </div>
                 <div>
                     <ul style={styles.bottomRow}>
@@ -25,7 +25,16 @@ NavBar = React.createClass({
 
 let styles = {
     topRow: {
-        textAlign: 'center'
+        //textAlign: 'center'
+    },
+    logo: {
+        fontSize: 22,
+        margin: 0,
+        textAlign: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        display: 'flex',
+        minHeight: 50
     },
     bottomRow: {
         listStyleType: 'none',

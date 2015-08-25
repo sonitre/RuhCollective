@@ -14,7 +14,7 @@ NavBar = React.createClass({
                 { style: styles.topRow },
                 React.createElement(
                     "p",
-                    null,
+                    { style: styles.logo },
                     "RUH COLLECTIVE"
                 )
             ),
@@ -67,8 +67,15 @@ NavBar = React.createClass({
 });
 
 var styles = {
-    topRow: {
-        textAlign: "center"
+    topRow: {},
+    logo: {
+        fontSize: 22,
+        margin: 0,
+        textAlign: "center",
+        justifyContent: "center",
+        flexDirection: "column",
+        display: "flex",
+        minHeight: 50
     },
     bottomRow: {
         listStyleType: "none",
@@ -82,5 +89,7 @@ var styles = {
         color: "white"
     }
 };
+
+//textAlign: 'center'
 
 })();
