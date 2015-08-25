@@ -539,9 +539,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/lib/collections.js?62efabfc5ffbf2745e0f6178a4c2616c4e9132f2",
-      "size": 68,
-      "hash": "62efabfc5ffbf2745e0f6178a4c2616c4e9132f2"
+      "url": "/client/lib/collections.js?8986d96cc492fbd2581860e35a01d9675d4b304d",
+      "size": 423,
+      "hash": "8986d96cc492fbd2581860e35a01d9675d4b304d"
     },
     {
       "path": "app/client/components/About/About.jsx.js",
@@ -559,33 +559,33 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/components/Home/Home.jsx.js?7f1cfb7617437482bff5105003f6a96b6433a833",
+      "url": "/client/components/Home/Home.jsx.js?95b20377be9b7b9bd19dbf2f75d7e158eb62e741",
       "sourceMap": "app/client/components/Home/Home.jsx.js.map",
-      "sourceMapUrl": "/client/components/Home/7f1cfb7617437482bff5105003f6a96b6433a833.map",
-      "size": 414,
-      "hash": "7f1cfb7617437482bff5105003f6a96b6433a833"
+      "sourceMapUrl": "/client/components/Home/95b20377be9b7b9bd19dbf2f75d7e158eb62e741.map",
+      "size": 784,
+      "hash": "95b20377be9b7b9bd19dbf2f75d7e158eb62e741"
     },
     {
       "path": "app/client/components/NavBar/NavBar.jsx.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/components/NavBar/NavBar.jsx.js?6e71fc6c1975957b3e8d6de9ffe23a5ea34e4866",
+      "url": "/client/components/NavBar/NavBar.jsx.js?41c1718a8c7d07e7230aff7f245ce5fdea520c4f",
       "sourceMap": "app/client/components/NavBar/NavBar.jsx.js.map",
-      "sourceMapUrl": "/client/components/NavBar/6e71fc6c1975957b3e8d6de9ffe23a5ea34e4866.map",
-      "size": 1472,
-      "hash": "6e71fc6c1975957b3e8d6de9ffe23a5ea34e4866"
+      "sourceMapUrl": "/client/components/NavBar/41c1718a8c7d07e7230aff7f245ce5fdea520c4f.map",
+      "size": 2397,
+      "hash": "41c1718a8c7d07e7230aff7f245ce5fdea520c4f"
     },
     {
       "path": "app/client/components/Shop/Shop.jsx.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/components/Shop/Shop.jsx.js?5e4dd3386a910e19ac706fdd0edf95a469f89539",
+      "url": "/client/components/Shop/Shop.jsx.js?a9176260ed9bdf9939ab398737ed2afbac2bb136",
       "sourceMap": "app/client/components/Shop/Shop.jsx.js.map",
-      "sourceMapUrl": "/client/components/Shop/5e4dd3386a910e19ac706fdd0edf95a469f89539.map",
-      "size": 404,
-      "hash": "5e4dd3386a910e19ac706fdd0edf95a469f89539"
+      "sourceMapUrl": "/client/components/Shop/a9176260ed9bdf9939ab398737ed2afbac2bb136.map",
+      "size": 597,
+      "hash": "a9176260ed9bdf9939ab398737ed2afbac2bb136"
     },
     {
       "path": "app/client/components/Vote/Vote.jsx.js",
@@ -632,15 +632,15 @@
       "hash": "21ab7029f6dbfde52d2c1e60e279c29cfafd37e8"
     },
     {
-      "path": "20ae2c8d51b2507244e598844414ecdec2615ce3.css",
+      "path": "881cf2414fc4e8f7a5db874062d75ab4c21321f1.css",
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/20ae2c8d51b2507244e598844414ecdec2615ce3.css",
-      "sourceMap": "20ae2c8d51b2507244e598844414ecdec2615ce3.css.map",
-      "sourceMapUrl": "/20ae2c8d51b2507244e598844414ecdec2615ce3.map",
-      "size": 30,
-      "hash": "20ae2c8d51b2507244e598844414ecdec2615ce3"
+      "url": "/881cf2414fc4e8f7a5db874062d75ab4c21321f1.css",
+      "sourceMap": "881cf2414fc4e8f7a5db874062d75ab4c21321f1.css.map",
+      "sourceMapUrl": "/881cf2414fc4e8f7a5db874062d75ab4c21321f1.map",
+      "size": 95,
+      "hash": "881cf2414fc4e8f7a5db874062d75ab4c21321f1"
     },
     {
       "path": "head.html",

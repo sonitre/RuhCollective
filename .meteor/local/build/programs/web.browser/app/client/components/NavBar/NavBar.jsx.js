@@ -10,47 +10,77 @@ NavBar = React.createClass({
             "div",
             null,
             React.createElement(
-                "ul",
+                "div",
+                { style: styles.topRow },
+                React.createElement(
+                    "p",
+                    null,
+                    "RUH COLLECTIVE"
+                )
+            ),
+            React.createElement(
+                "div",
                 null,
                 React.createElement(
-                    "li",
-                    null,
+                    "ul",
+                    { style: styles.bottomRow },
                     React.createElement(
-                        Link,
-                        { to: "/" },
-                        "Home"
-                    )
-                ),
-                React.createElement(
-                    "li",
-                    null,
+                        "li",
+                        { style: styles.navItem },
+                        React.createElement(
+                            Link,
+                            { to: "/" },
+                            "HOME"
+                        )
+                    ),
                     React.createElement(
-                        Link,
-                        { to: "/vote" },
-                        "Vote"
-                    )
-                ),
-                React.createElement(
-                    "li",
-                    null,
+                        "li",
+                        { style: styles.navItem },
+                        React.createElement(
+                            Link,
+                            { to: "/vote" },
+                            "VOTE"
+                        )
+                    ),
                     React.createElement(
-                        Link,
-                        { to: "/shop" },
-                        "Shop"
-                    )
-                ),
-                React.createElement(
-                    "li",
-                    null,
+                        "li",
+                        { style: styles.navItem },
+                        React.createElement(
+                            Link,
+                            { to: "/shop" },
+                            "SHOP"
+                        )
+                    ),
                     React.createElement(
-                        Link,
-                        { to: "/about" },
-                        "About"
+                        "li",
+                        { style: styles.navItem },
+                        React.createElement(
+                            Link,
+                            { to: "/about" },
+                            "ABOUT"
+                        )
                     )
                 )
             )
         );
     }
 });
+
+var styles = {
+    topRow: {
+        textAlign: "center"
+    },
+    bottomRow: {
+        listStyleType: "none",
+        padding: 0,
+        background: "black"
+    },
+    navItem: {
+        display: "inline-block",
+        padding: "20px 10px",
+        textDecoration: "none",
+        color: "white"
+    }
+};
 
 })();
