@@ -5,7 +5,6 @@ catalogItemStyles = {
         padding: 1,
         overflow: 'hidden',
         background: 'white',
-
         textAlign: 'center',
         '@media (min-width: 768px)': {
             textAlign: 'left'

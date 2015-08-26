@@ -1,5 +1,3 @@
-let { Link } = ReactRouter;
-
 Vote = React.createClass({
     mixins: [ReactMeteorData],
     getMeteorData() {
@@ -7,17 +5,13 @@ Vote = React.createClass({
             edits: Edits.find({}).fetch()
         };
     },
-    getInitialState() {
-        return {};
-    },
     generateEdits() {
         return this.data.edits.map( edit => {
-            return <Edit edit={edit} />
+            return <Edit key={edit._id._str} edit={edit} />
         })
     },
     render() {
         if (this.data.edits.length){
-            console.log('edits in render ', this.data.edits)
             return (
                 <div>
                     { this.generateEdits() }

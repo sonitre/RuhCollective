@@ -1,10 +1,10 @@
 Edit = React.createClass({
     generateProducts() {
         return this.props.edit.products.map( product => {
-            return <Product product={product} />
+            return <Product parent='edit' key={product} product={product} />
         })
     },
-    render: function () {
+    render() {
         return (
             <div>
                 <h3 style={styles.editTitle}>Vote for the "{this.props.edit.name}"</h3>

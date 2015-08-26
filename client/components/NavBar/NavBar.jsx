@@ -1,14 +1,11 @@
 let { Link } = ReactRouter;
 
 NavBar = React.createClass({
-    getInitialState: function() {
-        return {};
-    },
-    render: function () {
+    render() {
         return (
             <div>
                 <div style={styles.topRow}>
-                    <p style={styles.logo}>RUH COLLECTIVE</p>
+                    <Link to="/"><p style={styles.logo}>RUH COLLECTIVE</p></Link>
                 </div>
                 <div>
                     <ul style={styles.bottomRow}>

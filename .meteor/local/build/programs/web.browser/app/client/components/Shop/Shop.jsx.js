@@ -2,19 +2,36 @@
 var Link = _ReactRouter.Link;
 
 Shop = React.createClass({
-    getInitialState: function () {
-        return {};
+    mixins: [ReactMeteorData],
+    getMeteorData: function () {
+        return {
+            products: Products.find({}).fetch()
+        };
+    },
+    generateProducts: function () {
+        return this.data.products.map(function (product) {
+            return React.createElement(Product, { parent: 'shop', key: product._id._str, product: product });
+        });
     },
     render: function () {
-        return React.createElement(
-            "div",
-            null,
-            React.createElement(
-                "h3",
+        if (this.data.products) {
+            return React.createElement(
+                'div',
                 null,
-                "Shop"
-            )
-        );
+                React.createElement(
+                    'h3',
+                    null,
+                    'Shop'
+                ),
+                this.generateProducts()
+            );
+        } else {
+            return React.createElement(
+                'p',
+                null,
+                'Loading'
+            );
+        }
     }
 });
 

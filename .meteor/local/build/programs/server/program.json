@@ -181,11 +181,6 @@
       "path": "packages/binary-heap.js"
     },
     {
-      "sourceMap": "packages/insecure.js.map",
-      "sourceMapRoot": "packages",
-      "path": "packages/insecure.js"
-    },
-    {
       "node_modules": "npm/mongo/node_modules",
       "sourceMap": "packages/mongo.js.map",
       "sourceMapRoot": "packages",

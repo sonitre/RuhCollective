@@ -13,5 +13,11 @@ if (Meteor.isServer) {
     });
     Meteor.publish('edits', function() {
         return Edits.find()
+    });
+
+    Meteor.methods({
+        voteForProduct: function(id) {
+            Products.update( new Meteor.Collection.ObjectID(id), {$inc: { votes: +1 } } )
+        }
     })
 }
