@@ -11,17 +11,18 @@ Vote = React.createClass({
     getInitialState: function () {
         return {};
     },
+    generateEdits: function () {
+        return this.data.edits.map(function (edit) {
+            return React.createElement(Edit, { edit: edit });
+        });
+    },
     render: function () {
         if (this.data.edits.length) {
-            console.log('edits ', this.data.edits);
+            console.log('edits in render ', this.data.edits);
             return React.createElement(
                 'div',
                 null,
-                React.createElement(
-                    'h3',
-                    null,
-                    'Vote'
-                )
+                this.generateEdits()
             );
         } else {
             return React.createElement(

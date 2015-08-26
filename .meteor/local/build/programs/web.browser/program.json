@@ -546,6 +546,17 @@
       "hash": "5d946b9c7a6c5a6a32879c9d4133a3e7d01fcbf9"
     },
     {
+      "path": "app/client/components/Edit/Edit.jsx.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/components/Edit/Edit.jsx.js?fd8815e5548aa360072c0573f7c98e8c4778a942",
+      "sourceMap": "app/client/components/Edit/Edit.jsx.js.map",
+      "sourceMapUrl": "/client/components/Edit/fd8815e5548aa360072c0573f7c98e8c4778a942.map",
+      "size": 670,
+      "hash": "fd8815e5548aa360072c0573f7c98e8c4778a942"
+    },
+    {
       "path": "app/client/components/Home/Home.jsx.js",
       "where": "client",
       "type": "js",
@@ -583,11 +594,31 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/components/Vote/Vote.jsx.js?dadbec40d6d97dae234327a51afe9eee4c515768",
+      "url": "/client/components/Vote/Vote.jsx.js?1c98732db247d5abec6b0aeadfd544144f190e7a",
       "sourceMap": "app/client/components/Vote/Vote.jsx.js.map",
-      "sourceMapUrl": "/client/components/Vote/dadbec40d6d97dae234327a51afe9eee4c515768.map",
-      "size": 822,
-      "hash": "dadbec40d6d97dae234327a51afe9eee4c515768"
+      "sourceMapUrl": "/client/components/Vote/1c98732db247d5abec6b0aeadfd544144f190e7a.map",
+      "size": 902,
+      "hash": "1c98732db247d5abec6b0aeadfd544144f190e7a"
+    },
+    {
+      "path": "app/client/components/product/Product.jsx.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/components/product/Product.jsx.js?0d36ec5ff8e407125a3071631790eab69bcda92d",
+      "sourceMap": "app/client/components/product/Product.jsx.js.map",
+      "sourceMapUrl": "/client/components/product/0d36ec5ff8e407125a3071631790eab69bcda92d.map",
+      "size": 2793,
+      "hash": "0d36ec5ff8e407125a3071631790eab69bcda92d"
+    },
+    {
+      "path": "app/client/components/product/styles.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/components/product/styles.js?fe4be9e22efc5a164193b2cdf21cbb84df33bc1e",
+      "size": 977,
+      "hash": "fe4be9e22efc5a164193b2cdf21cbb84df33bc1e"
     },
     {
       "path": "app/client/components/Routes.jsx.js",

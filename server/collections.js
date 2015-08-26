@@ -11,19 +11,7 @@ if (Meteor.isServer) {
     Meteor.publish('products', function() {
         return Products.find()
     });
-    Meteor.publishComposite('edits', {
-        find: function() {
-            return Edits.find();
-        },
-        children: [
-            {
-                find: function(edit) {
-                    //console.log('edit in server ', edit)
-                    Products.find( { edit: edit._id._str },
-                    { limit: 1, fields: { product: 1 } }
-                    );
-                }
-            }
-        ]
+    Meteor.publish('edits', function() {
+        return Edits.find()
     })
 }
